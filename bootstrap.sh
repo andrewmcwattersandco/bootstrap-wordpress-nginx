@@ -15,7 +15,7 @@ sudo apt-get update
 sudo apt-get -y install \
   php \
   mysql-server \
-  apache2 \
+  nginx \
   php-mysql \
   php-gd \
   php-curl \
@@ -61,5 +61,5 @@ sudo chown -R www-data /var/www/html
 # https://certbot.eff.org/instructions?ws=apache&os=ubuntufocal
 sudo apt-get -y install \
   certbot \
-  python3-certbot-apache
+  python3-certbot-nginx
 # sudo certbot --apache
