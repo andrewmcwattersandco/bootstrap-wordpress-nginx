@@ -9,6 +9,7 @@
 # sendmail:
 # "Your site may not be correctly configured to send emails."
 
+# https://wordpress.org/about/requirements/
 # https://make.wordpress.org/hosting/handbook/server-environment/#php-extensions
 
 sudo apt-get update
